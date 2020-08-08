@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>They made the most significant investment to humanity</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="assets/styles.min.css">
+	
+
+	
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="c-row">
+
+
+
+				<nav>
+					<div class="logo" style="width:60px;min-width:auto;">
+						<a href="#"><img class="lazy img-responsive w-100"
+								src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+								data-src="assets/logo.jpg" data-srcset="assets/logo.jpg 1x, assets/logo.jpg 2x" alt="img"></a>
+					</div>
+
+					<ul class="d-md-none">
+						<li><a href="#">MAIN</a></li>
+						<li><a href="#">WORLD</a></li>
+						<li><a class="active" href="#">SCIENCE</a></li>
+						<li><a href="#">POLITICS</a></li>
+						<li><a href="#">SOCIETY</a></li>
+						<li><a href="#">ECONOMICS</a></li>
+						<li><a href="#">GOSSIPS</a></li>
+						<li><a href="#">SPORTS</a></li>
+						<li><a href="#">INCIDENTS</a></li>
+					</ul>
+				</nav>
+
+				<div class="more d-lg-none-up">
+					<a href="#" class="burger">
+						<svg class="menu-icon" width="35" height="35" viewBox="0 0 64 64" fill="currentColor"
+							xmlns="https://www.w3.org/2000/svg" aria-hidden="true">
+							<path d="M52.75,47.84H11.25a2.08,2.08,0,1,0,0,4.16h41.5a2.08,2.08,0,1,0,0-4.16Z"></path>
+							<path d="M52.75,28.92H11.25a2.08,2.08,0,1,0,0,4.16h41.5a2.08,2.08,0,1,0,0-4.16Z"></path>
+							<path d="M11.25,14.16h41.5a2.08,2.08,0,1,0,0-4.16H11.25a2.08,2.08,0,1,0,0,4.16Z"></path>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+	</header>
+
+
+	<!-- Custom HTML / Remove before use -->
+	<div class="container">
+
+		<div class="c-row">
+
+			<!-- CONTENT START -->
+			<div class="col-content">
+				<div class="content">
+					<div class="title">
+						<h1 class="h1">
+							<span>SCIENCE</span>Quantum mechanics and geometry
+						</h1>
+					</div>
+					<div class="img-block">
+						<div class="img-wrap">
+							<!-- КАРТИНКА SRC="ЗАГЛУШКА В base64 в размер оригинальной картинки, нужна обязательно" DATA-SRC="Путь до картинки" DATA-SRCSET="путь до картинки 1x, аналогично x2" -->
+							<img class="lazy img-responsive w-100"
+								src="assets/001.jpg"
+								data-src="assets/001.jpg" data-srcset="assets/001.jpg 1x, assets/001.jpg 2x" alt="img">
+						</div>
+						
+					</div>
+				
+					
+
+					<p class="text">Here’s a nice little story about quantum mechanics, which surprisingly few mathematicians seem to know about. The essential idea is “quantum mechanics on the projective space looks remarkably like classical mechanics”! Everything I say here comes from two papers Geometrical Formulation of Quantum Mechanics (gr-qc/9706069), Ashtekar and Schilling, and Geometry of stochastic state vector reduction (#), Hughston. If you’re interested in more details, I’d encourage you to read these papers — they’re well written and contain many further references.<br><br>
+
+As you’ll recall, quantum mechanics says that systems are described by Hilbert spaces, with states given by vectors. I’ll stick with finite-dimensional systems (e.g. particles with spin) for simplicity, but this isn’t essential for what follows. A particular self-adjoint operator H, called the Hamiltonian, governs the dynamics of the system via the Schrodinger equation \frac{d}{dt} \psi = i H \psi. Quantum mechanics also says something about measurement, which we’ll come to in a moment.<br><br>
+
+Now the Schrodinger equation defines a one parameter flow via U(t) = exp(i H t). This preserves the unit sphere in our Hilbert space, and descends to a flow on the projective space. The projective space is naturally a Kahler manifold, and in particular a symplectic manifold, so we immediately ask if this flow is Hamiltonian. The answer is unsurprising but underappreciated: yes, the flow is Hamiltonian, and the Hamiltonian function is just the expectation value of the Hamiltonian operator \langle \psi, H \psi \rangle.<br><br>
+
+The example you should have in mind at this point is a simple spin 1/2 system in a magnetic field, whose Hilbert space is \mathbb{C}^2, Hamiltonian \begin{pmatrix}1 &0 \\ 0 & -1\end{pmatrix}. The projective space is \mathbb{CP}^1 and the Hamiltonian function we get as the expectation value is just the usual z coordinate of the standard embedding of \mathbb{CP}^1 = S^2 in R^3. The Hamiltonian flow rotates points along lines of latitude, completing each orbit in \pi units of time (go calculate the unitary).<br><br>
+
+Eigenvectors for the Hamiltonian operator correspond to critical points for the Hamiltonian function, and in particular fixed points of the flow. (That’s the north and south poles in the example above.) The flow described above is just a rigid rotation of the sphere, and in fact this is generally true: the flow on projective space coming from a self-adjoint operator is Killing, that is, it preserves the metric. This is the first appearance of the metric, but it’s really essential, because the converse of this statement is true — Hamiltonian functions whose corresponding flows preserve the metric are precisely those which arise as expectation values of self-adjoint operators on the Hilbert space.<br><br>
+
+That’s not all the metric is good for! Quantum mechanics also tells us something about what happens during “measurement”. This is that when a “measurement” (yes, I’m going to keep using scare quotes, so you’re not allowed to argue with me about what measurement means) occurs, the system jumps discontinuously to one of the eigenvector of the Hamiltonian, and the probabilities of reaching the the various different eigenvectors  are given by the absolute value squared of the inner product of the current state and the eigenvector. This probability is exactly \cos^2 \theta, where \theta is the metric distance between the current state and the corresponding fixed point. (In the spin 1/2 example, let’s normalise this metric so it just measures angles between points on S^2.)<br><br>
+
+It gets even better, but at this point I’m going to stop talking about the conventional description of quantum mechanics, and begin describing a proposed modification of quantum mechanics. Physicists have already thought a lot about whether modifications like this are reasonable, but I’ll postpone that for now. At this point, if you’re reading the actual articles, we’re switching from the Ashtekar/Schilling paper to the Hughston one.<br><br>
+
+So what is this proposed modification? Well, let’s imagine the symplectic flow as some differential equations describing the trajectory of our state. We now want to add in a stochastic term, in particular an isotropic Brownian motion term with an amplitude that depends on the position in the projective space. This amplitude will be (some simple function of?) the energy uncertainty, namely the quantity \langle \psi, H^2 \psi \rangle - \langle \psi, H \psi \rangle^2. In fact, this energy uncertainty is exactly the squared velocity of the symplectic flow with respect to the metric. In our spin 1/2 example this velocity is \sqrt{1-z^2} (remember we have rigid rotation) and since H^2=1, \langle \psi, H^2 \psi \rangle - \langle \psi, H \psi \rangle^2 = 1-z^2. What happens? Well, at the fixed points it’s easy to see that the energy uncertainty is zero, so we might expect that the Brownian motion term drives the state away from areas with high energy uncertainty, towards the eigenstates — just like what is supposed to happen during “measurement”. This is precisely what happens: Hughston does a lot of financial mathematics, and he knows his stochastic calculus. His Proposition 5 says the energy uncertainty in this model is a supermartingale, that is, an on average decreasing function. As time passes, you expect to end up at one of the fixed points, each with various probabilities. Note that these are honest, stochastic probabilities, not just numbers we’ve declared to be interpreted as probabilities as in the naive set up. (ED: see below for Greg’s comment on this.) His next result, of course, is that these probabilities match up with what we want, namely that they are given simply by metric distances on the projective space.<br><br>
+
+I think this is a beautiful picture. The measurement process is now something more concrete, a stochastic term in the governing equation, and we can resume thinking probabilistically about quantum mechanical probabilities.Very roughly, you’re meant to think that in an “isolated quantum system” the stochastic term is extremely small, and symplectic flow dominates. On the other hand, during a “measurement”, presumably when the system is coupled with the macroscopic world, the scale of energy uncertainties becomes extremely large and the stochastic terms dominates, and the system is quickly driven to a fixed point of the symplectic flow.<br><br>
+
+You have to think hard, however, about where this stochastic terms comes from, and what it means. Hughston has some ideas about quantum gravity, but I’m not so sure I like them! There are also lots of no-go theorems ruling out stochastic variations on quantum mechanics, and I have to admit to not being clear about whether these results affect Hughston’s model.<br><br>
+
+A final idea for further thought, from the Ashtekar/Schilling paper: we can fully describe quantum mechanics solely in terms of the Kahler manifold structure of the projective space, so why not drop the requirement that it’s a projective space? That is, can we imagine systems on other Kahler manifolds? It seems that all we lose is the fact that on \mathbb{CP}^n any two points have a canonical \mathbb{CP}^1 through them — i.e. that we’re allowed to form linear superpositions of states. Is this really essential? Where might we look for finite dimensional systems described by “exotic” Kahler manifolds? And all you quantum topologist gallium-arsenide engineers out there — how might we try to make one? <br>
+If you ever want to try learning Quantum Physics just apply here <a href="https://thebestschools.org/rankings/"> https://thebestschools.org/rankings/best-physics-programs-in-world-today/
+
+</p>
+
+				</div>
+			</div>
+
+
+
+			<!-- CONTENT END -->
+
+			
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="container">
+			<div class="copy">
+				<div><a href="#">Privacy Policy DMCA</a> <a href="#">Terms of use</a></div>
+				<span>© 2020 Copyright. All rights reserved.</span>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/scripts.min.js"></script>
+</body>
+
+</html>
